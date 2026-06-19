@@ -59,8 +59,8 @@ export const botConfig = {
   applications: {
     // Default questions shown when someone fills out an application.
     defaultQuestions: [
-      { question: "What is your name?", required: true },
       { question: "How old are you?", required: true },
+      { question: "What are you gonna do for the server?", required: true },
       { question: "Why do you want to join?", required: true },
     ],
 
@@ -139,7 +139,7 @@ export const botConfig = {
     },
     footer: {
       // Default footer text used in bot embeds.
-      text: "Titan Bot",
+      text: "Blox Bot",
       // Footer icon URL (null = no icon).
       icon: null,
     },
@@ -167,21 +167,21 @@ export const botConfig = {
     },
 
     // Starting balance for new users.
-    startingBalance: 0,
+    startingBalance: 100,
 
     // Maximum bank amount before upgrades (if upgrades are used).
-    baseBankCapacity: 100000,
+    baseBankCapacity: 500000,
 
     // Daily reward amount.
-    dailyAmount: 100,
+    dailyAmount: 1000,
 
     // Work command random payout range.
-    workMin: 10,
-    workMax: 100,
+    workMin: 500,
+    workMax: 5000,
 
     // Beg command random payout range.
-    begMin: 5,
-    begMax: 50,
+    begMin: 50,
+    begMax: 200,
 
     // Chance to succeed when robbing (0.4 = 40%).
     robSuccessRate: 0.4,
