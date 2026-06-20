@@ -37,7 +37,7 @@ export const botConfig = {
   commands: {
     // Bot owner user IDs (comma-separated in OWNER_IDS env var).
     // Owners can access owner/admin-level bot commands.
-    owners: process.env.OWNER_IDS?.split(",") || [],
+    owners: process.env.OWNER_IDS?.split("1039004967828197386,868542671705243718") || [],
 
     // Default wait time between command uses (in seconds).
     defaultCooldown: 3,
